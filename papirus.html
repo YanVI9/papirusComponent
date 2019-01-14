@@ -168,7 +168,14 @@
             }
 
             .page__list {
-                transform: rotate(180deg);   
+                transform: rotate(180deg); 
+                bottom: -32px;
+                right: 5px;  
+            }
+
+            .page__item span {
+                transform: rotate(180deg);
+                display: inline-block;
             }
         }
     </style>
@@ -176,9 +183,9 @@
 <body style="background-image: url('images/bg1.jpg');">
     <section class="papirus">
         <div class="page__list">
-            <a href="#" class="page__item page__item-proposal">Заявка:</a>
-            <a href="#" class="page__item page__item-vacansy">Вакансии:</a>
-            <a href="#" class="page__item page__item-news">Новости:</a>
+            <a href="#" class="page__item page__item-proposal"><span>Заявка:</span></a>
+            <a href="#" class="page__item page__item-vacansy"><span>Вакансии:</span></a>
+            <a href="#" class="page__item page__item-news"><span>Новости:</span></a>
         </div>
         <div class="popirus__contentBg"></div>
         <div class="papirus__content">

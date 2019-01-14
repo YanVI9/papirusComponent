@@ -14,7 +14,6 @@
             margin: 0 auto;
             position: relative;
             display: flex;
-   
         }
 
         .papirus__content {
@@ -127,6 +126,23 @@
 
         .page__item-news {
             z-index: 1;
+        }
+
+        @media screen and (max-width: 932px) {
+            .papirus {
+                width: 700px;
+                height: 305px;
+            }
+
+            .papirus__content {
+                height: 254px;
+            }
+
+            .popirus__contentBg {
+                background: url('images/papirus__background.png') no-repeat center bottom;
+                height: 254px;
+                background-size: cover;
+            }
         }
     </style>
 </head>
